@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nibbles Coin - The Future of DCA</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header>Nibbles Coin 🚀🐿️💎</header>
+    <div class="container">
+        <h1>Welcome to Nibbles Coin</h1>
+        <p>The meme coin that takes DCA to the moon!</p>
+        <a href="#buy" class="cta-button">Buy Nibbles</a>
+        <a href="#calculator" class="cta-button">DCA Calculator</a>
+    </div>
+    
+    <div class="container">
+        <h2>NFT Gallery</h2>
+        <div class="nft-gallery">
+            <img src="assets/nibbles_nft1.png" alt="Nibbles NFT 1">
+            <img src="assets/nibbles_nft2.png" alt="Nibbles NFT 2">
+            <img src="assets/nibbles_nft3.png" alt="Nibbles NFT 3">
+        </div>
+    </div>
+    
+    <div class="container" id="calculator">
+        <h2>DCA Calculator</h2>
+        <p>Calculate your potential gains with dollar-cost averaging.</p>
+        <label>Investment per week ($): <input type="number" id="investment" value="50"></label>
+        <label>Weeks: <input type="number" id="weeks" value="52"></label>
+        <button onclick="calculateDCA()">Calculate</button>
+        <p id="result"></p>
+    </div>
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>
